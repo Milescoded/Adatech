@@ -1,0 +1,367 @@
+.landinggbar{
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+    /* Future of Work Summit - White */
+
+    background: #F9FCFC;
+    list-style-type: none;
+}
+
+.Nav1{
+    position: absolute;
+    left: 17.71%;
+    right: 76.35%;
+    top: 0.39%;
+    bottom: 98.83%;
+
+    background: #000000;
+    list-style: none;
+
+}
+.Nav2{
+    /* Overview */
+
+
+    position: absolute;
+    width: 75px;
+    height: 24px;
+    left: 798px;
+    top: 38px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* Future of Work Summit - Black */
+
+    color: #00000A;
+    list-style: none;
+
+
+}
+.Nav3{
+    position: absolute;
+    width: 125px;
+    height: 24px;
+    left: 913px;
+    top: 38px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    /* Future of Work Summit - Black */
+    
+    color: #00000A;
+    list-style: none;
+    
+
+}
+.Nav4{
+    position: absolute;
+    width: 75px;
+    height: 24px;
+    left: 1078px;
+    top: 38px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* Future of Work Summit - Black */
+
+    color: #00000A;
+    list-style: none;
+
+}
+.Nav5{
+    position: absolute;
+    width: 75px;
+    height: 24px;
+    left: 1193px;
+    top: 38px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* Future of Work Summit - Black */
+
+    color: #00000A;
+    list-style-type: none;
+
+
+}
+.Nav6{
+    position: absolute;
+    width: 75px;
+    height: 24px;
+    left: 1308px;
+    top: 38px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* Future of Work Summit - Black */
+
+    color: #00000A;
+    list-style: none;
+
+
+
+}
+.Nav7{
+    position: absolute;
+    width: 157px;
+    height: 40px;
+    left: 1423px;
+    top: 30px;
+
+    /* Future of Work Summit - Orange */
+
+    background: #F39711;
+    border-radius: 50px;
+    list-style: none;
+
+}
+.Landmain{
+    
+    width: 1920px;
+    height: 980px;
+    left: 0px;
+    top: 100px;
+
+    background: linear-gradient(180deg, rgba(243, 151, 17, 0.75) 0%, rgba(24, 54, 178, 0.75) 55.21%), url(./Future.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    list-style: none;
+
+}
+.Land1{
+    position: absolute;
+    width: 1240px;
+    height: 90px;
+    left: 340px;
+    top: 408px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Future of Work Summit - White */
+
+    color: #F9FCFC;
+
+
+}
+.Land2{
+    position: absolute;
+    width: 1240px;
+    height: 144px;
+    left: 340px;
+    top: 538px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    text-align: center;
+
+    /* Future of Work Summit - White */
+
+    color: #F9FCFC;
+
+
+}
+.Bt1{
+    position: absolute;
+    width: 217px;
+    height: 50px;
+    left: 723px;
+    top: 722px;
+
+    /* Future of Work Summit - Orange */
+
+    background: #F39711;
+    border-radius: 50px;
+}
+.Bt2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 217px;
+    height: 50px;
+    left: 980px;
+    top: 722px;
+
+    /* Future of Work Summit - White */
+
+    border: 2px solid #F9FCFC;
+    border-radius: 50px;
+}
+.inBt1{
+    
+    width: 57px;
+    height: 24px;
+    left: 803px;
+    top: 735px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Future of Work Summit - White */
+
+    color: #F9FCFC;
+}
+.inBit2{
+   
+    width: 153px;
+    height: 24px;
+    left: 1012px;
+    top: 735px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Future of Work Summit - White */
+
+    color: #F9FCFC;
+}
+
+.FooterLand{
+    position: absolute;
+    width: 1920px;
+    height: 336px;
+    left: 0px;
+    top: 1080px;
+    
+    /* Future of Work Summit - Dark Blue */
+    
+    background: #1836B2;
+    display: flex;
+    justify-content: center;
+}
+.ForVenue{
+    
+    width: 400px;
+    height: 176px;
+    left: 385px;
+    top: 1160px;
+
+    /* Future of Work Summit - White */
+
+    background: #F9FCFC;
+    border-radius: 25px;
+    flex: 1;
+    margin: 10px;
+}
+.ForVenue1{
+    
+    width: 400px;
+    height: 176px;
+    left: 805px;
+    top: 1160px;
+
+    /* Future of Work Summit - White */
+
+    background: #F9FCFC;
+    border-radius: 25px;
+    flex: 1;
+    margin: 10px;
+}
+.ForVenue2{
+    
+    width: 400px;
+    height: 176px;
+    left: 1225px;
+    top: 1160px;
+
+    /* Future of Work Summit - White */
+
+    background: #F9FCFC;
+    border-radius: 25px;
+    flex: 1;
+    margin: 10px;
+}
+
+.Inforvenue{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height */
+
+text-align: center;
+
+/* Future of Work Summit - Black */
+
+color: #00000A;
+
+}
+.Inforvenuep1{
+    width: 332px;
+    height: 36px;
+    left: 419px;
+    top: 1260px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+    
+    text-align: center;
+    
+    /* Future of Work Summit - Black */
+    
+    color: #00000A;
+    
+    
+}

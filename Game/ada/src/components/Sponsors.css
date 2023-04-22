@@ -1,0 +1,51 @@
+.IndustrySponsors{
+    position: absolute;
+    width: 1920px;
+    height: 486px;
+    left: 0px;
+    top: 5189px;
+
+    background: #F9FCFC;
+}
+
+.Industry-title{
+ 
+width: 503px;
+height: 54px;
+left: 709px;
+top: 5269px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+
+text-align: center;
+
+/* Future of Work Summit - Orange */
+
+color: #F39711;
+}
+
+.Industry-title1{
+
+width: 503px;
+height: 54px;
+left: 709px;
+top: 5269px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+
+text-align: center;
+
+/* Future of Work Summit - Orange */
+
+color:  #00000A;;
+}
