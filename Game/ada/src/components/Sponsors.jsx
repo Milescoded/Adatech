@@ -4,8 +4,8 @@ function IndustrySponsors(){
     return(
         <>
         <div className='IndustrySponsors'>
-            <h3 className='Industry-title'>Industry <span className='Industry-title1'>Sponsors</span></h3>
-            <div className='nvidia'></div>
+            <h3 className='Industrytitle'>Industry Sponsors</h3>
+            <div className='nvidia'><div className='Nvidiaphoto'></div></div>
             <div className='Huawei'></div>
             <div className='Cardano'></div>
             <div className='Telkom'></div>

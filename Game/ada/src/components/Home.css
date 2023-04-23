@@ -73,6 +73,7 @@
     color: #00000A;
 }
 
+
 .Overpicture{
     
     width: 225px;
@@ -121,7 +122,20 @@
     border-radius: 25px;
     float: right;
     flex-basis: 50%;
+} 
+
+.Top{
+    display: flex;
+    flex-direction: column;
 }
+/* .a{
+    display: flex;
+    flex-direction: row;
+}
+.b{
+    display: flex;
+    flex-direction: row;
+} */
 
 
 /*Styling the Keytakeaways section*/
