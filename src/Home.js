@@ -12,7 +12,7 @@ import './style.css';
 function Home(){
     return(
         <>
-        <div className="landingbar">
+        <div className="landingbar container">
         <nav>
       <ul>
             <li>
@@ -38,7 +38,7 @@ function Home(){
       </ul>
     </nav>
         </div>
-        <div className="Landmain">
+        <div className="Landmain container">
             <h3 className="Land1">Future of Work Summit Africa 2023 </h3>
             <h3 className="Land2">
                 The Future of Work Summit Africa 2023 will bring together industry leaders,
@@ -63,7 +63,7 @@ function Home(){
             </div>
         </div>
 
-        <div>
+        <div className="container">
             
             <OverView/>
             <KeyTakeAways/>
