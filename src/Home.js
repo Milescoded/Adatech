@@ -12,31 +12,27 @@ import './style.css';
 function Home(){
     return(
         <>
-        <div className="landingbar container">
-        <nav>
-      <ul>
-            <li>
-            <Link to="/Home" className="Nav1">LogoHome</Link>
-            </li>
-            <li>  <Link to="/Overview" className="Nav2">Overview</Link>
-            </li>
-            <li>
-            <Link to="/Keytakeaways" className="Nav3">Key Takeaways</Link>
-            </li>
-            <li>
-            <Link to="/Speakers" className="Nav4">Speakers</Link>
-            </li>
-            <li>
-            <Link to="/Schedule" className="Nav5">Schedule</Link>
-            </li>
-            <li>
-            <Link to="/Sponsors" className="Nav6">Sponsors</Link>
-            </li>
-            <li>
-            <Link to="/Attend" className="Nav7">Attend</Link>
-            </li>
-      </ul>
-    </nav>
+        <div className="landingbar">
+        <div className="logo"><Link to="/Home" className="Nav1">LogoHome</Link></div>
+            <ul>
+                    <li><Link to="/Overview" className="Nav2">Overview</Link>
+                    </li>
+                    <li>
+                    <Link to="/Keytakeaways" className="Nav3">Key Takeaways</Link>
+                    </li>
+                    <li>
+                    <Link to="/Speakers" className="Nav4">Speakers</Link>
+                    </li>
+                    <li>
+                    <Link to="/Schedule" className="Nav5">Schedule</Link>
+                    </li>
+                    <li>
+                    <Link to="/Sponsors" className="Nav6">Sponsors</Link>
+                    </li>
+                    <li>
+                    <Link to="/Attend" className="Nav7">Attend</Link>
+                    </li>
+            </ul>
         </div>
         <div className="Landmain container">
             <h3 className="Land1">Future of Work Summit Africa 2023 </h3>
