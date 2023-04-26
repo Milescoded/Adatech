@@ -1,9 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+button {
+    border-style: none;
+}
+
+.all {
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
 .landingbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #F9FCFC;
-    padding: 20px 30px;
+    padding: 20px 10%;
 }
 
 .landingbar ul {
@@ -31,4 +45,71 @@
     padding: 8px 15px;
     border-radius: 20px;
     margin-left: 25px !important;
+}
+
+.Landmain {
+    background: linear-gradient(180deg, rgba(243, 151, 17, 0.75) 0%, rgba(24, 54, 178, 0.75) 55.21%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #F9FCFC;
+    padding: 20% 10%;
+}
+
+.Land1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.Land2 {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.Landbtns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Landbtns button {
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 6px 20px;
+    width: 200px;
+    color: white;
+}
+
+.Bt1 {
+    background-color: #F39711;
+    margin-right: 5px;
+}
+
+.Bt2 {
+    margin-left: 5px;
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+.FooterLand {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #1836B2;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.FooterLand div {
+    background-color: #F9FCFC;
+    border-radius: 20px;
+    color: black;
+    width: 20%;
+    text-align: center;
 }

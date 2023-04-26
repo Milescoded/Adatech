@@ -1,456 +1,93 @@
-.Overcs{
-    /* Rectangle 4 */
+/* Overviews component styling */
 
-
-    position: absolute;
-    width: 1920px;
-    height: 560px;
-    left: 0px;
-    top: 1416px;
-    text-align:left;
-
-    /* Future of Work Summit - White */
-
-    background: #F9FCFC;
+.OverPage {
+    background-color: #F9FCFC;
+    width: 100vw;
+    padding: 3% 10% 5% 10%;
 }
 
-.Overcs .Overh4{
-  /* Title */
+.Overcs, .OvercsPics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.OvercsPics1 div, .OvercsPics2 div {
+    background-color: #F39711;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
 
-    
-    width: 170px;
-    height: 30px;
-    left: 365px;
-    top: 1496px;
+.OvercsPics1 div {
+    margin-top: 20px;
+}
 
-    font-family: 'Poppins';
-    font-style: normal;
+.OvercsPics2 div {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.Overpicture1 {
+    margin-top: 60px !important;
+    margin-right: 0px !important;
+}
+
+.OvercsTxt {
+    padding-right: 50px;
+}
+
+.Overh4 {
     font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    /* identical to box height */
-
-
-    /* Future of Work Summit - Black */
-
-    color: #00000A;
-}
-.Overh3{
-    /* Title */
-    width: 730px;
-    height: 108px;
-    left: 340px;
-    top: 1566px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 54px;
-
-    /* Future of Work Summit - Black */
-
-    color: #00000A;
-}
-.Overp{
-    
-    width: 730px;
-    height: 192px;
-    left: 340px;
-    top: 1694px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
-    /* or 24px */
-    
-    
-    /* Future of Work Summit - Black */
-    
-    color: #00000A;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #F39711;
+    padding-left: 10px;
+    margin-bottom: 25px;
 }
 
-
-.Overpicture{
-    
-    width: 225px;
-    height: 170px;
-    left: 1110px;
-    top: 1536px;
-
-    background: linear-gradient(0deg, rgba(243, 151, 17, 0.25), rgba(243, 151, 17, 0.25)), url(../Image1.png);
-    border-radius: 25px;
-    flex-basis: 50%;
-    
-    float: right;
-
+.Overh3, .grid h4, .Keystylesheading {
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 16px;
 }
-.Overpicture1{
-    width: 225px;
-    height: 170px;
-    left: 1354.83px;
-    top: 1496px;
 
-    background: linear-gradient(0deg, rgba(24, 54, 178, 0.5), rgba(24, 54, 178, 0.5)), url(../Image2.png);
-    border-radius: 25px;
-    float: right;
-    flex-basis: 50%;
+.Overp, .grid p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
 }
-.Overpicture2{
-    
-    width: 225px;
-    height: 170px;
-    left: 1110px;
-    top: 1726px;
 
-    background: linear-gradient(0deg, rgba(24, 54, 178, 0.5), rgba(24, 54, 178, 0.5)), url(../Image3.png);
-    border-radius: 25px;
-    float: right;
-    flex-basis: 50%;
+/* Takeaways component styling */
+
+.Keystyles {
+    background-color: #E8F1FF;
+    padding: 3% 10%;
 }
-.Overpicture3{
-    
-    width: 225px;
-    height: 170px;
-    left: 1355px;
-    top: 1686px;
 
-    background: linear-gradient(0deg, rgba(243, 151, 17, 0.25), rgba(243, 151, 17, 0.25)), url(../Image4.png);
-    border-radius: 25px;
-    float: right;
-    flex-basis: 50%;
-} 
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
-.Top{
+.grid > div {
+    background-color: white;
+    aspect-ratio: 1/1;
+    width: 30%;
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 50%;
+    text-align: center;
     display: flex;
     flex-direction: column;
-}
-/* .a{
-    display: flex;
-    flex-direction: row;
-}
-.b{
-    display: flex;
-    flex-direction: row;
-} */
-
-
-/*Styling the Keytakeaways section*/
-/*///////////*/
-
-.Keystyles{
-   /* Use display: flex to create a flexbox layout */
-   display: flex;
-
-   /* Use flex-wrap: wrap to allow the circles to wrap into two rows */
-   flex-wrap: wrap;
-
-   /* Use justify-content: center to center the circles horizontally */
-   justify-content: center;
-
-   /* Use align-items: center to center the circles vertically */
-   align-items: center;
-
-   /* Set the width and height of the parent container */
-   width: 1920px;
-   height: 1074px;
-   background: #E8F1FF;
-   
+    align-items: center;
+    justify-content: center;
 }
 
-.Keystylesheading{
-    
-    width: 730px;
-    height: 54px;
-    left: 595px;
-    top: 2056px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 54px;
-    /* identical to box height */
-
+.Keystylesheading {
     text-align: center;
-
-    /* Future of Work Summit - Orange */
-
-    color: #F39711;
-
+    padding-bottom: 30px;
 }
-.Keystylesheading1{
-   
-    width: 730px;
-    height: 54px;
-    left: 595px;
-    top: 2056px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 54px;
-    /* identical to box height */
-
-    text-align: center;
-
-    /* Future of Work Summit - Orange */
-
-    color: #00000A;
-}
-
-.StayAhead{
-    box-sizing: border-box;
-
-   
-    width: 390px;
-    height: 390px;
-    left: 340px;
-    top: 2150px;
-    
-    /* Future of Work Summit - White */
-    
-    background: #F9FCFC;
-    border-radius: 50%;
-    position: relative;
-
-}
-.StayAhead-text {
-    /* Position the text absolutely inside the circle */
-    position: absolute;
-
-    /* Move the text to the center of the circle */
-    top: 50%;
-    left: 50%;
-
-    /* Adjust the margins to align the text properly */
-    margin-top: -75px;
-    margin-left: -100px;
-
-    /* Set the width and height of the text area */
-    width: 200px;
-    height: 150px;
-
-    /* Center the text horizontally and vertically */
-    text-align: center;
-    line-height: 25px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-}
-
-.Connect{
-    box-sizing: border-box;
-
-
-    width: 390px;
-    height: 390px;
-    left: 765px;
-    top: 2150px;
-
-    /* Future of Work Summit - White */
-
-    background: #F9FCFC;
-    border-radius: 50%;
-    position: relative;
-    
-}
-.Connect-text {
-    /* Position the text absolutely inside the circle */
-    position: absolute;
-
-    /* Move the text to the center of the circle */
-    top: 50%;
-    left: 50%;
-
-    /* Adjust the margins to align the text properly */
-    margin-top: -75px;
-    margin-left: -100px;
-
-    /* Set the width and height of the text area */
-    width: 200px;
-    height: 150px;
-
-    /* Center the text horizontally and vertically */
-    text-align: center;
-    line-height: 25px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-}
-.Learn{
-    box-sizing: border-box;
-
-    
-    width: 390px;
-    height: 390px;
-    left: 1190px;
-    top: 2150px;
-
-    /* Future of Work Summit - White */
-
-    background: #F9FCFC;
-    border-radius: 50%;
-    position: relative;
-}
-
-.Learn-text {
-    /* Position the text absolutely inside the circle */
-    position: absolute;
-
-    /* Move the text to the center of the circle */
-    top: 50%;
-    left: 50%;
-
-    /* Adjust the margins to align the text properly */
-    margin-top: -75px;
-    margin-left: -100px;
-
-    /* Set the width and height of the text area */
-    width: 200px;
-    height: 150px;
-
-    /* Center the text horizontally and vertically */
-    text-align: center;
-    line-height: 25px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-}
-
-.Opportunities{
-    
-    box-sizing: border-box;
-
-    
-    width: 390px;
-    height: 390px;
-    left: 340px;
-    top: 2570px;
-
-    /* Future of Work Summit - White */
-
-    background: #F9FCFC;
-    border-radius: 50%;
-    position: relative;
-}
-
-.Opportunities-text {
-    
-    position: absolute;
-
-    
-    top: 50%;
-    left: 50%;
-
-    
-    margin-top: -75px;
-    margin-left: -100px;
-
-    
-    width: 200px;
-    height: 150px;
-
-    
-    text-align: center;
-    line-height: 25px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-}
-
-.Skills{
-    box-sizing: border-box;
-
-    width: 390px;
-    height: 390px;
-    left: 765px;
-    top: 2570px;
-
-    /* Future of Work Summit - White */
-
-    background: #F9FCFC;
-    border-radius: 50%;
-    
-    position: relative;
-}
-
-.Skills-text {
-    /* Position the text absolutely inside the circle */
-    position: absolute;
-
-    /* Move the text to the center of the circle */
-    top: 50%;
-    left: 50%;
-
-    /* Adjust the margins to align the text properly */
-    margin-top: -75px;
-    margin-left: -100px;
-
-    /* Set the width and height of the text area */
-    width: 200px;
-    height: 150px;
-
-    /* Center the text horizontally and vertically */
-    text-align: center;
-    line-height: 25px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-}
-
-.Africa{
-    box-sizing: border-box;
-
-    
-    width: 390px;
-    height: 390px;
-    left: 1190px;
-    top: 2570px;
-
-    /* Future of Work Summit - White */
-
-    background: #F9FCFC;
-    border-radius: 50%;
-    position: relative;
-}
-
-.Africa-text {
-    /* Position the text absolutely inside the circle */
-    position: absolute;
-
-    /* Move the text to the center of the circle */
-    top: 50%;
-    left: 50%;
-
-    /* Adjust the margins to align the text properly */
-    margin-top: -75px;
-    margin-left: -100px;
-
-    /* Set the width and height of the text area */
-    width: 200px;
-    height: 150px;
-
-    /* Center the text horizontally and vertically */
-    text-align: center;
-    line-height: 25px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-}
-
-
-
-
-
-
