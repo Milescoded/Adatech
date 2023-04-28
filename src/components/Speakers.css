@@ -1,0 +1,27 @@
+.Heading{
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.parent>div {
+    width: 30%;
+}
+
+.parent>div>div {
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: black;
+    padding-bottom: 30px;
+
+}

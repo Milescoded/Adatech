@@ -66,9 +66,9 @@ function Home(){
                 
                 <OverView/>
                 <KeyTakeAways/>
-                <IndustrySponsors/>
                 <EventSpeakers/>
                 <EventSchedule/>
+                <IndustrySponsors/>
             </div>
         </div>
 

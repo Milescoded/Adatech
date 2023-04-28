@@ -7,12 +7,47 @@ function EventSpeakers(){
     return(
         
         <>
-        <div className="John"></div>
-        <div className="John1"></div>
-        <div className="John2"></div>
-        <div className="John3"></div>
-        <div className="John4"></div>
-        <div className="John5"></div>
+        <h4 className="Heading">Event Speakers</h4>
+        <div className="parent">
+            <div className="John">
+                <div></div>
+                <p>John Kamara</p>
+                <p>Co-founder of Adanian labs & Afya Rekods</p>
+            </div>
+
+            <div className="John">
+                <div></div>
+                <p>John Kamara</p>
+                <p>Co-founder of Adanian labs & Afya Rekods</p>
+            </div>
+
+            <div className="John">
+                <div></div>
+                <p>John Kamara</p>
+                <p>Co-founder of Adanian labs & Afya Rekods</p>
+            </div>
+
+            <div className="John">
+                <div></div>
+                <p>John Kamara</p>
+                <p>Co-founder of Adanian labs & Afya Rekods</p>
+            </div>
+
+            <div className="John">
+                <div></div>
+                <p>John Kamara</p>
+                <p>Co-founder of Adanian labs & Afya Rekods</p>
+            </div>
+
+            <div className="John">
+                <div></div>
+                <p>John Kamara</p>
+                <p>Co-founder of Adanian labs & Afya Rekods</p>
+            </div>
+            
+            
+        </div>
+        
 
 
         </>
