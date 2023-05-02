@@ -5,10 +5,37 @@
     font-weight: 700;
     font-size: 36px;
 }
+.Parentforschedule{
+    background: #E8F1FF;
+}
 
 .parent1{
     display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    
+   justify-content: space-between;
+    
+    border: 3px solid #F39711;
+    border-radius: 50px;
+    
+}
+.Day1{
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #F39711;
+}
+/* .Day1{
+    background: #F39711;
+    border-radius: 50px 0px 0px 50px;
+    
+
+} */
+
+.parent2{
+    display: flex;
+   
 }
