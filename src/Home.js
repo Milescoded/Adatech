@@ -4,6 +4,7 @@ import EventSpeakers from "./components/Speakers";
 import IndustrySponsors from "./components/Sponsors";
 import KeyTakeAways from "./components/Keytakeaways";
 import OverView from "./components/Overview";
+import Attendees from "./components/Attend";
 import { Link } from "react-router-dom";
 import './style.css';
 
@@ -69,6 +70,7 @@ function Home(){
                 <EventSpeakers/>
                 <EventSchedule/>
                 <IndustrySponsors/>
+                <Attendees/>
             </div>
         </div>
 
