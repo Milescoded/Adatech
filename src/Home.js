@@ -5,7 +5,7 @@ import IndustrySponsors from "./components/Sponsors";
 import KeyTakeAways from "./components/Keytakeaways";
 import OverView from "./components/Overview";
 import Attendees from "./components/Attend";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import './style.css';
 import group from "../src/images/Group.png";
 
@@ -25,7 +25,7 @@ function Home(){
                         <Link to="/Speakers" className="Nav4">Speakers</Link>
                         </li>
                         <li>
-                        <Link to="/Schedule" className="Nav5">Schedule</Link>
+                        <Link to="Time" className="Nav5" smooth={true} duration={1000}>Schedule</Link>
                         </li>
                         <li>
                         <Link to="/Sponsors" className="Nav6">Sponsors</Link>

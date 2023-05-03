@@ -22,21 +22,43 @@ background: #F9FCFC;
 
 
 
-.Sponsorslist{
+.Sponsorslist {
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
-
-}
-
-.Sponsorslist div{
-    border: 2px solid #E0E2F1;
+    overflow-x: hidden; /* to hide the overflowing part of the animated div */
+    animation: scroll 20s linear infinite; /* animate the div using the scroll animation for 20 seconds, linearly, infinitely */
+  }
+  
+  .Sponsorslist div {
+    border: 2px solid #e0e2f1;
     border-radius: 25px;
     align-items: center;
     margin: 10px;
-    justify-content: center;
     margin-bottom: 50px;
     margin-left: 20px;
     padding: 10px;
-}
+    animation: move 20s linear infinite; /* animate each logo to move for 20 seconds, linearly, infinitely */
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(0); /* move to the left */
+    }
+    50% {
+      transform: translateX(200px); /* move to the right */
+    }
+    100% {
+      transform: translateX(0); /* move to the left */
+    }
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0); /* move to the left */
+    }
+    100% {
+      transform: translateX(-100%); /* move to the right */
+    }
+  }
+  

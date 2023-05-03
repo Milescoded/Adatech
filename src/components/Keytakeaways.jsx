@@ -1,9 +1,10 @@
 import React from "react";
-//import { Element } from "react-scroll";
+import { Element } from "react-scroll";
 import "./Home.css"
 
 function KeyTakeAways() {
     return(
+        <Element name="KeyTakeAways" className="KeyTakeAways">
         <div className="Keystyles">
             <h3 className="Keystylesheading">Key <span className="Keystylesheading1">Takeaways</span></h3>
             <div className="grid">
@@ -45,6 +46,7 @@ function KeyTakeAways() {
                 </div>
             </div>
         </div>
+    </Element>
     )
 };
 
