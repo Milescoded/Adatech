@@ -5,41 +5,62 @@
     font-weight: 700;
     font-size: 36px;
 }
+
+.Title span{
+    color: #F39711;
+}
 .Parentforschedule{
     background: #E8F1FF;
 }
 
 .parent1{
     display: flex;
-    justify-content: space-between;
     border: 3px solid #F39711;
-    border-radius: 50px;
-    
+    border-radius: 55px;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #F9FCFC;
 }
 
-.separator{
-    height: 50%;
-    border-right: 3px solid #F39711;
-  }
 
-.Day1{
-    width: 30%;
-    padding: 20px;
+
+.parent1 div{
+    margin-right: 70px;
     text-align: center;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    color: #F39711;
-}
-/* .Day1{
-    background: #F39711;
-    border-radius: 50px 0px 0px 50px;
+    margin-top: 10px;
     
+}
 
-} */
 
 .parent2{
     display: flex;
-   
+    justify-content: space-around;
+    align-items: center;
+    
 }
+
+.parent2 p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.parent2 > div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.parent2 > div:last-child {
+  display: inline-block;
+}
+
+
+.line{
+    border: 2px solid #51ADE5;
+}
+
+

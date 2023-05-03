@@ -30,8 +30,8 @@ function Attendees(){
             <div className="contacts2">
                 <form>
                     <section>
-                        <label for='First name'  style={{display: 'inline-block'}}>First name<br></br>  <input/> </label>
-                        <label for='Second name'  style={{display: 'inline-block'}}>Last name<br></br><input/> </label>
+                        <label for='First name' style={{display: 'inline-block'}}>First name<br></br>  <input placeholder='John' /> </label>
+                        <label for='Second name'  style={{display: 'inline-block'}}>Last name<br></br><input placeholder='Kamara' /> </label>
                         <label>Email Address<br></br><input placeholder="johnkamara@gmail.com"/></label>
                         <label for='phone'>Phone number<br></br><input placeholder="+254 701 611 450"/></label>
                          <label for="tickets">
