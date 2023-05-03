@@ -7,14 +7,14 @@ import OverView from "./components/Overview";
 import Attendees from "./components/Attend";
 import { Link } from "react-router-dom";
 import './style.css';
-
+import group from "../src/images/Group.png";
 
 
 function Home(){
     return(
         <div className="all">
             <div className="landingbar">
-            <div className="logo"><Link to="/Home" className="Nav1">LogoHome</Link></div>
+            <div className="logo"><Link to="/Home" className="Nav1"><img src={group} alt='groupz'/></Link></div>
                 <ul>
                         <li><Link to="/Overview" className="Nav2">Overview</Link>
                         </li>

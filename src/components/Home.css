@@ -13,7 +13,7 @@
 }
 
 .OvercsPics1 div, .OvercsPics2 div {
-    background-color: #F39711;
+    
     width: 200px;
     height: 150px;
     border-radius: 20px;
@@ -91,3 +91,5 @@
     text-align: center;
     padding-bottom: 30px;
 }
+
+

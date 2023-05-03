@@ -1,5 +1,5 @@
 .ContactUs{
-    background: linear-gradient(0deg, rgba(232, 241, 255, 0.97), rgba(232, 241, 255, 0.97)), url(../Future.png);
+    background: linear-gradient(0deg, rgba(232, 241, 255, 0.97), rgba(232, 241, 255, 0.97)), url(../images/Future.png);
 }
 
 .contacts{
@@ -96,4 +96,7 @@ form label:nth-child(odd) {
     margin-left: 5px;
   }
   
-  
+  label select{
+    border-radius: 25px !important;
+    padding: 0 40px;
+  }

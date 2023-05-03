@@ -1,8 +1,20 @@
-import React from "react";
+
 import './Attend.css';
+import React, { useEffect } from "react";
+
 
 
 function Attendees(){
+    useEffect(() => {
+        const ticketDropdown = document.getElementById("tickets");
+        for (let i = 1; i <= 10; i++) {
+          const option = document.createElement("option");
+          option.value = i;
+          option.text = i;
+          ticketDropdown.add(option);
+        }
+      }, []);
+
     return(
         
         <div className='ContactUs'>
@@ -10,7 +22,7 @@ function Attendees(){
                 <h4>Contact Us</h4> 
                 <p>For Partnership and Sponsorship enquiries,<br></br> kindly reach out via mobile or email.</p>
                 <p className='contact-info'>Mobile: +234 803 000 0000</p>
-                <p className='contact-info'>Email:</p>
+                <p className='contact-info'>Email:info@fws.io</p>
                 <p className='contact-info'>335 Rhapta Road, Nairobi, Kenya</p>
             </div>
             
@@ -20,9 +32,12 @@ function Attendees(){
                     <section>
                         <label for='First name'  style={{display: 'inline-block'}}>First name<br></br>  <input/> </label>
                         <label for='Second name'  style={{display: 'inline-block'}}>Last name<br></br><input/> </label>
-                        <label>Email Address<br></br><input/></label>
-                        <label for='phone'>Phone number<br></br><input/></label>
-                        <label for='Tickets'>Number of tickets<br></br><input/></label>
+                        <label>Email Address<br></br><input placeholder="johnkamara@gmail.com"/></label>
+                        <label for='phone'>Phone number<br></br><input placeholder="+254 701 611 450"/></label>
+                         <label for="tickets">
+                            Number of Tickets<br></br>
+                            <select id="tickets" name="tickets"></select>
+                        </label>
 
                     </section>
                     <section>

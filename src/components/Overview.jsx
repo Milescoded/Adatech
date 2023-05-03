@@ -1,6 +1,10 @@
 import React from "react";
 //import { Element } from "react-scroll";
 import "./Home.css";
+import Image from "../images/doll.png";
+import hands from "../images/hands.png";
+import girl from "../images/girl.png"
+import laptop from "../images/laptop.png";
 
 function OverView() {
     return(
@@ -19,12 +23,19 @@ function OverView() {
                     <div className="OvercsPics">
                         <div className="OvercsPics1">
                             <div className="Overpicture1">
+                            <img src={Image} alt='doll'/>
                             </div>
-                            <div className="Overpicture2"></div>
+                            <div className="Overpicture2">
+                                <img src={hands} alt='fingers'/>
+                            </div>
                         </div>
                         <div className="OvercsPics2">
-                            <div className="Overpicture3"></div>
-                            <div className="Overpicture4"></div>
+                            <div className="Overpicture3">
+                                <img src={girl} alt='girlz'/>
+                            </div>
+                            <div className="Overpicture4">
+                                <img src={laptop}  alt='A girl reading a laptop'/>
+                            </div>
                     </div>
                 </div>
                 

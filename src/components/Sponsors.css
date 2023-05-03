@@ -7,11 +7,36 @@ background: #F9FCFC;
 .Industrytitle{
   
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 36px;
+    color: #FF6B00;
 }
+
+.Industrytitle span{
+    color: #00000A;
+}
+
+
 
 .Sponsorslist{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
    
 
+}
+
+.Sponsorslist div{
+    border: 2px solid #E0E2F1;
+    border-radius: 25px;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    padding: 10px;
 }

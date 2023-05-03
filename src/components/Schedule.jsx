@@ -7,20 +7,26 @@ function EventSchedule(){
         <Element name="Time" className="Event">
             <div className="Parentforschedule">
                 <h3 className="Title">Event <span className="Title1">Schedule</span></h3>
+
+            
+
                 <div className="parent1">
                     <div>
-                    <div className='Day1'>Day 1</div>
-                    <p>June 5, 2023</p>
+                        Day 1
+                        <p>June 5, 2023</p>
                     </div>
                     <div>
-                    <div className='Day1'>Day 2</div>
-                    <p>June 5, 2023</p>
+                        Day 2
+                        <p>June 5, 2023</p>
                     </div>
+                    <div className="separator"></div>
                     <div>
-                    <div className='Day1'>Day 3</div>
-                    <p>June 5, 2023</p>
+                        Day 3
+                        <p>June 5, 2023</p>
                     </div>
                 </div>
+
+
                 <div className="parent2">
                     <div><p>08:00 - 10:00 AM</p></div>
                     <div>
@@ -61,6 +67,7 @@ function EventSchedule(){
                     
                 </div>
             </div>
+            
        
             
     

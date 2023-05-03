@@ -1,30 +1,36 @@
 import React from'react';
 import './Sponsors.css'
+import nvidia from '../images/nvidia.png'
+import Huawei from '../images/Huawei.png'
+import Cardano from '../images/Cardano.png'
+import Telkom from '../images/Telkom.png'
+import fsd from '../images/fsd.png'
 
 function IndustrySponsors(){
     return(
         <>
         <div className='IndustrySponsors'>
+
             <div className='Industrytitle'>
-                <h3 >Industry Sponsors</h3>
+                <h3 >Industry <span>Sponsors</span></h3>
             </div>
            
 
             <div className='Sponsorslist'>
                 <div className='nvidia'>
-                    <img src='../images/nvidia.png' alt='nvidia'/>
+                    <img src={nvidia} alt='nvidia'/>
                 </div>
                 <div className='Huawei'>
-                    <img src='../images/Huawei.png' alt='Huawei'/>
+                    <img src={Huawei} alt='Huawei'/>
                 </div>
                 <div className='Cardano'>
-                    <img src='../images/Cardano.png' alt='Cardano'/>
+                    <img src={Cardano} alt='Cardano'/>
                 </div>
                 <div className='Telkom'>
-                    <img src='../images/Telkom.png' alt='Telkom'/>
+                    <img src={Telkom} alt='Telkom'/>
                 </div>
                 <div className='fsd'>
-                    <img src='../images/fsd.png' alt='fsd'/>
+                    <img src={fsd} alt='fsd'/>
                 </div>
             </div>
            
