@@ -27,7 +27,7 @@ background: #F9FCFC;
     justify-content: space-around;
     align-items: center;
     overflow-x: hidden; /* to hide the overflowing part of the animated div */
-    animation: scroll 20s linear infinite; /* animate the div using the scroll animation for 20 seconds, linearly, infinitely */
+    animation: scroll 5s linear infinite; /* animate the div using the scroll animation for 20 seconds, linearly, infinitely */
   }
   
   .Sponsorslist div {
@@ -41,24 +41,34 @@ background: #F9FCFC;
     animation: move 20s linear infinite; /* animate each logo to move for 20 seconds, linearly, infinitely */
   }
   
-  @keyframes move {
+  @keyframes scroll {
     0% {
-      transform: translateX(0); /* move to the left */
-    }
-    50% {
-      transform: translateX(200px); /* move to the right */
+      transform: translateX(0);
     }
     100% {
-      transform: translateX(0); /* move to the left */
+      transform: translateX(-100%);
     }
   }
   
-  @keyframes scroll {
-    0% {
-      transform: translateX(0); /* move to the left */
-    }
-    100% {
-      transform: translateX(-100%); /* move to the right */
-    }
+  .Sponsorslist {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .Sponsorslist > div {
+    flex: 0 0 auto;
+    width: 200px; /* adjust as needed */
+  }
+  
+  .Sponsorslist > div img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* animate the movement */
+  .Sponsorslist {
+    animation: scroll 20s linear infinite;
   }
   

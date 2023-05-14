@@ -14,15 +14,18 @@ function EventSchedule(){
                 <div className="parent1">
                     <div>
                         <h7>Day 1</h7>
+                        <br></br>
                         <p>June 5, 2023</p>
                     </div>
                     <div>
                         <h7>Day 2</h7>
+                        <br></br>
                         <p>June 6, 2023</p>
                     </div>
                     <div className="separator"></div>
                     <div>
                         <h7>Day 3</h7>
+                        <br></br>
                         <p>June 7, 2023</p>
                     </div>
                 </div>
@@ -33,7 +36,7 @@ function EventSchedule(){
                             <p>08:00 - 10:00 AM</p>
                         </div>
                         <div>
-                            <img src={johncircle} alt="circle"/>
+                            <img src={johncircle} alt="cirle"/>
                         </div>
                         <div>
                             <p>John Kamara</p>
@@ -85,8 +88,8 @@ function EventSchedule(){
                         </div>
                 </div>
                 <div className="line"></div>
-                <div className="parent2">
-                        <div>
+                <div className="parent2 ">
+                        <div className="parent2-first">
                             <p>08:00 - 10:00 AM</p>
                         </div>
                         <div>

@@ -93,3 +93,50 @@
 }
 
 
+
+
+/* Styles for menu navigation bar */
+
+
+  
+
+  
+
+  
+  /* Media query for menu navigation bar */
+  @media screen and (min-width: 768px) {
+    .navbar {
+      padding: 10px 50px;
+    }
+  
+    .navbar-link {
+      margin-left: 40px;
+    }
+    /* Styles for menu navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    display: flex;
+  }
+  
+  .navbar-link {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  
+
+  
+  }
+  
