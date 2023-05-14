@@ -84,4 +84,46 @@
     border: 2px solid #51ADE5;
 }
 
+@media (max-width: 768px) {
+  .Parentforschedule {
+    padding: 5% 5%;
+  }
+
+  .parent1 {
+    width: 100%;
+    border-radius: 0;
+    margin: 0 auto;
+  }
+
+  .parent1 div {
+    text-align: left;
+  }
+
+  .parent1 div h7 {
+    font-size: 16px;
+  }
+
+  .parent1 div p {
+    font-size: 14px;
+  }
+
+  .parent2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parent2 p {
+    font-size: 14px;
+  }
+
+  .parent2-first {
+    display: block;
+  }
+
+  .line {
+    border: 0;
+  }
+}
+
 

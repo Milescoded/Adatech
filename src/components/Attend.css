@@ -100,3 +100,96 @@ form label:nth-child(odd) {
     border-radius: 25px !important;
     padding: 0 40px;
   }
+
+  @media (max-width: 768px) {
+    .ContactUs {
+      background: linear-gradient(0deg, rgba(232, 241, 255, 0.97), rgba(232, 241, 255, 0.97)), url(../images/Future.png);
+      width: 100%;
+      padding: 0 5%;
+    }
+  
+    .contacts {
+      margin-left: 0;
+      display: block;
+    }
+  
+    .contacts p:first-of-type {
+      color: #1836B2;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+    }
+  
+    .contact-info {
+      background: #F9FCFC;
+      border: 1px solid #9B9B9B;
+      border-radius: 25px;
+      align-items: center;
+      padding: 12px 24px;
+      max-width: 100%;
+    }
+  
+    .contacts h4 {
+      color: #00000A;
+    }
+  
+    .contacts2 {
+      margin-left: 0;
+      margin-top: 0;
+    }
+  
+    .foot {
+      background: #1836B2;
+    }
+  
+    .text {
+      text-align: center;
+      color: #F9FCFC;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+    }
+  
+    form label {
+      display: block;
+      margin: 0.5rem 0;
+    }
+  
+    form label:nth-child(odd) {
+      margin-right: 0px;
+    }
+  
+    .attend-btn {
+      background: #F39711;
+      border-radius: 30px;
+      align-items: center;
+      padding: 16px 100px;
+      color: white;
+      letter-spacing: 1px;
+      cursor: pointer;
+      border: none;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+    }
+  
+    input {
+      border-radius: 25px;
+    }
+  
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+  
+    label input[type="checkbox"] + span {
+      margin-left: 5px;
+    }
+  
+    label select {
+      border-radius: 25px !important;
+      padding: 0 20px;
+    }
+  }

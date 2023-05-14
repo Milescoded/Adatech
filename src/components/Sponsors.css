@@ -72,3 +72,15 @@ background: #F9FCFC;
     animation: scroll 20s linear infinite;
   }
   
+  @media (max-width: 768px) {
+    .Sponsorslist {
+      flex-direction: column;
+      overflow-x: visible;
+      animation: none;
+    }
+    
+    .Sponsorslist div {
+      margin-bottom: 10px;
+      margin-left: 0;
+    }
+  }
